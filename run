@@ -1,0 +1,6 @@
+export MONGO_URI='mongodb+srv://ajay2529:ajay2529@cluster0-0qkxn.mongodb.net/driverdb?retryWrites=true&w=majority'
+export SECRET_KEY='<.EMQ3%pKYNUFk[;EI,T$4U[@X&;@Obsf0S8<U%5R+.EG)X>e):-&?ys-gb1&9!'
+export REDIS_HOST='localhost'
+export REDIS_PORT=6379
+export REDIS_DB=1
+uvicorn app:app --reload
